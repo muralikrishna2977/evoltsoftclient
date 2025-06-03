@@ -1,0 +1,77 @@
+.NavBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+    background-color: #f4f6fa;
+    border-right: solid 1px rgb(185, 185, 185);
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+.filtersHeading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 40px;
+    /* margin-top: 20px; */
+}
+
+.filtersHeading p{
+    font-size: larger;
+
+    user-select: none;
+  cursor: default;
+    /* font-family: Inter; */
+}
+
+
+.addStationButton {
+  padding: 10px 16px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  /* transition: background 0.3s ease; */
+  margin-bottom: 20px;
+  /* margin-top: 20px; */
+  width: 175px;
+}
+
+.addStationButton:hover {
+  background: #0056b3;
+}
+
+.filterTitles{
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+  user-select: none;
+  cursor: default;
+}
+
+
+
+.logout {
+  padding: 10px 16px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  /* transition: background 0.3s ease; */
+  /* margin-bottom: 20px; */
+  /* margin-top: 20px; */
+  margin-top: 40px;
+  width: 175px;
+}
+
+.logout:hover {
+  background: #0056b3;
+}

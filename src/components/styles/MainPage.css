@@ -1,0 +1,46 @@
+.AppComponent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: flex-start; */
+    justify-content: flex-start;
+    height: 100%;
+    flex: 1;
+    background-color: #f4f6fa;
+    overflow-y: auto;
+    padding-left: 12px;
+}
+
+.mapContainer{
+    height: 100%;
+    flex: 1;
+    background-color: #f4f6fa;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    overflow-y: auto;
+}
+
+
+.addStationMain{
+    width: 500px;
+    height: 100%;
+    background-color: #f4f6fa;
+    flex: 1;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    overflow-y: auto;
+}
+
+
+
+

@@ -1,0 +1,92 @@
+.addStation {
+    max-width: 300px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.addStation h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #333;
+}
+
+.addStationForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #444;
+}
+
+.inputStyles {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    height: 20px;
+    transition: border-color 0.2s;
+}
+
+.inputStyles:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.powerOutputAS,
+.connectorTypeAS {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputAndAddDiv {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.buttonStyles {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.buttonStyles:hover {
+    background-color: #0056b3;
+}
+
+img {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.editAndClose{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

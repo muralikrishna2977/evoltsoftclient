@@ -1,0 +1,143 @@
+/* .customDropDown{
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    width: 170px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.dropDownOptions{
+    position: absolute;
+    top: 39px;
+    left: 0px;
+    width: 170px;
+    min-height: 30px;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.dropDownOptions p{
+    margin: 8px;
+}
+
+.dropDownButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.dropDownButton:hover {
+  background: #dff1fa;
+}
+
+.dropDownButton p{
+    margin: 8px;
+}
+
+.dropDownOption:hover{
+  background: #dff1fa;
+  border-radius: 5px;
+} */
+
+
+.customDropDown {
+  position: relative;
+  width: 180px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+}
+
+.dropDownButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 10px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dropDownButton:hover {
+  border-color: #007bff;
+  box-shadow: 0 2px 6px #a8d2ff;
+}
+
+.dropDownButton p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+/* .dropDownOptions {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  max-height: 500px;
+  overflow-y: auto;
+  box-sizing: border-box;
+} */
+
+
+.dropDownOptions {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+
+  /* Scrollbar will appear only if content overflows */
+  max-height: 150px; /* or whatever fits your design */
+  overflow-y: auto;
+
+  /* Optional improvements */
+  box-sizing: border-box;
+  scrollbar-width: thin;         /* Firefox */
+  scrollbar-color: #ccc #f9f9f9; /* Firefox */
+}
+
+/* Optional (for Chrome/Edge/Safari): custom scrollbar style */
+.dropDownOptions::-webkit-scrollbar {
+  width: 6px;
+}
+
+.dropDownOptions::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 6px;
+}
+
+.dropDownOptions::-webkit-scrollbar-track {
+  background-color: #f9f9f9;
+}
+
+
+
+.dropDownOption {
+  padding: 10px 5px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin: 0;
+}
+
+.dropDownOption:hover {
+  background-color: #c3e0ff;
+}
