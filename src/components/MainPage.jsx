@@ -10,7 +10,7 @@ import axios from "axios";
 
 import "./styles/MainPage.css";
 
-const url = "https://evoltsoftserver-production.up.railway.app/";
+const url = "https://evoltsoftserver-production.up.railway.app";
 
 function MainPage() {
   const location = useLocation();

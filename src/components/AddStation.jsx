@@ -8,7 +8,7 @@ import "./styles/AddStation.css";
 
 import axios from "axios"; 
 
-const url="https://evoltsoftserver-production.up.railway.app/";
+const url="https://evoltsoftserver-production.up.railway.app";
 
 function AddStation({setStationId, stationId, edit, formData, setFormData, uniqueFilterOptions, setUniqueFilterOptions, setAllCards}){
 

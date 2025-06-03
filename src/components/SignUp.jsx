@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import "./styles/SignUp.css";
-const url = "https://evoltsoftserver-production.up.railway.app/";
+const url = "https://evoltsoftserver-production.up.railway.app";
 
 function SignUp() {
   const [name, setName] = useState(""); 
