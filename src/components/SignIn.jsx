@@ -5,8 +5,8 @@ import "./styles/SignIn.css";
 const url = "https://evoltsoftserver-production.up.railway.app";
 
 function SignIn() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("murali@gmail.com");
+  const [password, setPassword] = useState(" ");
   const [error, setError] = useState(null);
   const navigate = useNavigate();
 
